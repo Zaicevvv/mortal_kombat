@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mortal_kombat/static/css/main.db798f14.css",
+    "main.js": "/mortal_kombat/static/js/main.bd6e3d49.js",
+    "static/media/shangtsungIcon.png": "/mortal_kombat/static/media/shangtsungIcon.9ba97d64c8c6f65b56bd.png",
+    "static/media/reptileIcon.png": "/mortal_kombat/static/media/reptileIcon.60e85fbdaac66dbd35ce.png",
+    "static/media/kunglaoIcon.png": "/mortal_kombat/static/media/kunglaoIcon.f2cb39727322382ec2d7.png",
+    "static/media/smokeIcon.png": "/mortal_kombat/static/media/smokeIcon.9a15b96fd544638c2006.png",
+    "static/media/raidenIcon.png": "/mortal_kombat/static/media/raidenIcon.24cdc20350399530b034.png",
+    "static/media/barakaIcon.png": "/mortal_kombat/static/media/barakaIcon.404f0dfde6179403c280.png",
+    "static/media/johnnycageIcon.png": "/mortal_kombat/static/media/johnnycageIcon.a7bf3b865d1b52323758.png",
+    "static/media/mileenaIcon.png": "/mortal_kombat/static/media/mileenaIcon.bc98b4e5be5484132ff3.png",
+    "static/media/jaxIcon.png": "/mortal_kombat/static/media/jaxIcon.9069351ef74fd218d8e0.png",
+    "static/media/liukangIcon.png": "/mortal_kombat/static/media/liukangIcon.5d5ceb4c335c3e4f7175.png",
+    "static/media/kitanaIcon.png": "/mortal_kombat/static/media/kitanaIcon.9550f4610e4cf941c491.png",
+    "static/media/noobIcon.png": "/mortal_kombat/static/media/noobIcon.931369945ef4eff6f7ad.png",
+    "static/media/jadeIcon.png": "/mortal_kombat/static/media/jadeIcon.8af37ae09cbc93d14fdc.png",
+    "static/media/subzeroIcon.png": "/mortal_kombat/static/media/subzeroIcon.b1e6fa910b930a6f335f.png",
+    "static/media/scorpionIcon.png": "/mortal_kombat/static/media/scorpionIcon.a15cef6d09c1903674d0.png",
+    "index.html": "/mortal_kombat/index.html",
+    "main.db798f14.css.map": "/mortal_kombat/static/css/main.db798f14.css.map",
+    "main.bd6e3d49.js.map": "/mortal_kombat/static/js/main.bd6e3d49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db798f14.css",
+    "static/js/main.bd6e3d49.js"
+  ]
+}
