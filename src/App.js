@@ -1,11 +1,18 @@
-import noob from './assets/noob.png'
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
+import { AnimatePresence } from 'framer-motion'
+import CharacterSelectPage from './pages/CharacterSelectPage'
+import VSPage from './pages/VSPage'
 
-function App() {
+const App = () => {
+  const location = useLocation()
+
   return (
-    <div className="App">
-      <header className="App-header">hello</header>
-      <img alt="character" src={noob} />
-    </div>
+    <AnimatePresence mode="wait">
+      <Routes key={location.pathname} location={location}>
+        <Route path="/" element={<CharacterSelectPage />} />
+        <Route path="/vs/:players" element={<VSPage />} />
+      </Routes>
+    </AnimatePresence>
   )
 }
 

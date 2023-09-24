@@ -1,0 +1,19 @@
+.enter {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+  }
+  
+  .enterActive {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    transition: all .4s ease;
+  }
+  
+  .exit {
+    transform: translateX(0);
+  }
+  
+  .exitActive {
+    transform: translateX(0);
+    transition: all .4s ease;
+  }

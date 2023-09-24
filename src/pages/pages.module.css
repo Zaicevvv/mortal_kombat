@@ -1,0 +1,147 @@
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #6b6868;
+}
+
+.charactersHeader {
+    height: 120px;
+    display: grid;
+    place-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.vs {
+    color: white;
+    font-size: 120px;
+    font-weight: 900;
+}
+
+.container {
+    position: relative;
+    display: grid;
+    place-items: center;
+    margin: 0 auto; 
+    max-width: 620px;
+    max-height: 70%;
+}
+
+.vsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.gridItem {
+    position: relative;
+}
+
+.firstIndicator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+    color: lime;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.secondIndicator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    color: red;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.border {
+    border: 5px solid transparent;
+}
+
+.lime {
+    border: 5px solid lime;
+}
+
+.red {
+    border: 5px solid red;
+}
+
+.both {
+    border-top: 5px solid lime;
+    border-right: 5px solid red;
+    border-bottom: 5px solid red;
+    border-left: 5px solid lime;
+}
+
+.icon {
+    width: 120px;
+    height: 150px;
+}
+
+.firstChoice {
+    position: absolute;
+    bottom: 0;
+    left: -80px;
+    height: 200px;
+    z-index: 2;
+}
+
+.secondChoice {
+    position: absolute;
+    bottom: 0;
+    right: -80px;
+    height: 200px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    z-index: 2;
+}
+
+.firstFighter {
+    height: 500px;
+}
+
+.secondFighter {
+    height: 500px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.vsFooter {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.vcItem {
+    width: 50px;
+    height: 60px;
+    border: 3px solid white;
+    display: grid;
+    place-items: center;
+    color: rgb(172, 31, 31);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.mode {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
